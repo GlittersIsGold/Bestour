@@ -1,0 +1,284 @@
+﻿<Application x:Class="Bestour.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Bestour"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <!--Гланвая страница-->
+        <Style TargetType="Label" x:Key="LbLogoText">
+            <Setter Property="FontSize" Value="35"/>
+            <Setter Property="Foreground" Value="#F9F9F9"/>
+            <Setter Property="FontStretch" Value="UltraExpanded"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Image" x:Key="ImgLogo">
+            <Setter Property="Width" Value="71"/>
+            <Setter Property="Height" Value="71"/>
+        </Style>
+
+            <!--Кнопки панели навигации-->
+        <Style TargetType="Button" x:Key="NavigatonBarButton">
+            <Setter Property="Width" Value="267"/>
+            <Setter Property="Height" Value="69"/>
+            <Setter Property="Background" Value="#F9F9F9"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground" Value="#E39163"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+            <!--Лейбл логотипа-->
+        <Style x:Key="LbFrameHeader" TargetType="TextBlock">
+            <Setter Property="Grid.Row" Value="0"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Foreground" Value="#E39163"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="FrameNavigation" TargetType="Frame">
+            <Setter Property="Grid.Row" Value="1"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="1049"/>
+            <Setter Property="Height" Value="772"/>
+            <Setter Property="NavigationUIVisibility" Value="Hidden"/>
+        </Style>
+
+
+
+        <!--Окно входа-->
+        <Style x:Key="FrameLoginLabel" TargetType="Label">
+            <Setter Property="Grid.Row" Value="0"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Background" Value="#F9F9F9"/>
+            <Setter Property="FontSize" Value="35"/>
+            <Setter Property="Foreground" Value="#E39163"/>
+            <Setter Property="FontStretch" Value="UltraExpanded"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+            
+            <!--Кнопки окна логина-->
+        <Style TargetType="Button" x:Key="FrameLoginButton">
+            <Setter Property="Width" Value="412"/>
+            <Setter Property="Height" Value="69"/>
+            <Setter Property="Background" Value="#E39163"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground" Value="#F9F9F9"/>
+            <Setter Property="BorderBrush" Value="#E39163"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+
+            <!--Поле ввода логина-->
+        <Style TargetType="TextBox" x:Key="FrameLoginTextBox">
+            <Setter Property="Width" Value="410"/>
+            <Setter Property="Height" Value="69"/>
+            <Setter Property="Background" Value="#ECECEC"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground" Value="#8B8B8B"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Height" Value="69"/>
+                    <Setter Property="Width" Value="412"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="Content" Value="Логин"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+
+            <!--Поле пароля-->
+        <Style TargetType="PasswordBox" x:Key="FrameLoginPasswordBox">
+            <Setter Property="Width" Value="400"/>
+            <Setter Property="Height" Value="69"/>
+            <Setter Property="Background" Value="#ECECEC"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="#8B8B8B"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                    <Setter Property="Width" Value="412"/>
+                    <Setter Property="Height" Value="69"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="Content" Value="Пароль"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+            <!--Края элементов ввода данных-->
+        <Style TargetType="Border" x:Key="FrameLoginBorder">
+            <Setter Property="CornerRadius" Value="30"/>
+            <Setter Property="Background" Value="#ECECEC"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+            <!--Текстовые блоки страницы входа-->
+        <Style TargetType="TextBlock" x:Key="FrameLoginTextBlock">
+            <Setter Property="IsHitTestVisible" Value="False"/>
+            <Setter Property="Text" Value="Блок текста"/>
+            <Setter Property="Foreground" Value="#8D8D8D"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Width" Value="400"/>
+            <Setter Property="Margin" Value="0"/>
+            <Style.Resources>
+                <Style TargetType="{x:Type TextBlock}">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text, ElementName=TbLogin}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+
+        
+        <!--Страница регистрации-->
+            
+            <!--Текстовые блоки страницы регистрации-->
+        <Style TargetType="TextBlock" x:Key="FrameRegistrationTextBlock">
+            <Setter Property="IsHitTestVisible" Value="False"/>
+            <Setter Property="Text" Value="Блок текста"/>
+            <Setter Property="Foreground" Value="#000000"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Width" Value="400"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+
+
+        <!--Поле ввода--> 
+        <Style TargetType="TextBox" x:Key="FrameRegistrationTextBox">
+            <Setter Property="Width" Value="410"/>
+            <Setter Property="Height" Value="69"/>
+            <Setter Property="Background" Value="#ECECEC"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="#8B8B8B"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Height" Value="69"/>
+                    <Setter Property="Width" Value="412"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="Content" Value="Логин"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+        
+            <!--Кнопки загрузки медиа-->
+        <Style TargetType="Button" x:Key="FrameRegistrationBtnUploadMedia">
+            <Setter Property="Content" Value="Загрузить изображение"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#C65314"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+        
+            <!--Подчёркивание кнопок-->
+        <Style TargetType="Border" x:Key="FrameRegistrationBtnUploadMediaBorder">
+            <Setter Property="Height" Value="1"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#C65314"/>
+        </Style>
+        
+            <!--Выпадающие списки окна регистрации-->        
+        <Style TargetType="ComboBox" x:Key="FrameRegistrationComboBox">
+            <Setter Property="Width" Value="291"/>
+            <Setter Property="Height" Value="69"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="#8D8D8D"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        
+            <!--Кнопка далле-->
+        <Style TargetType="Button" x:Key="BtnContinue">
+            <Setter Property="Content" Value="Далее"/>
+            <Setter Property="Width" Value="164"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Background" Value="#E39163"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground" Value="#F9F9F9"/>
+            <Setter Property="BorderBrush" Value="#E39163"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+
+        <!--Кнопка назад-->
+        <Style TargetType="Button" x:Key="BtnBackspace">
+            <Setter Property="Content" Value="Назад"/>
+            <Setter Property="Width" Value="164"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Background" Value="#F9F9F9"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Foreground" Value="#E39163"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+        
+    </Application.Resources>
+</Application>

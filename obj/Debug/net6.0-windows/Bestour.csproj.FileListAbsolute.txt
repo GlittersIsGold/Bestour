@@ -1,0 +1,72 @@
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.csproj.AssemblyReference.cache
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour_MarkupCompile.cache
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\Bestour.exe
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\Bestour.deps.json
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\Bestour.runtimeconfig.json
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\Bestour.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\Bestour.pdb
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Converters.Wpf.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Core.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Css.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Dom.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Model.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Rendering.Gdi.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Rendering.Wpf.dll
+C:\Users\shelb\source\repos\Bestour\bin\Debug\net6.0-windows\SharpVectors.Runtime.Wpf.dll
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour_MarkupCompile.lref
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.g.resources
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.AssemblyInfoInputs.cache
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.AssemblyInfo.cs
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.csproj.CoreCompileInputs.cache
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.csproj.CopyComplete
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.dll
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\refint\Bestour.dll
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.pdb
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Bestour.genruntimeconfig.cache
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\ref\Bestour.dll
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\App.baml
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageLogin.g.cs
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageLogin.baml
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageRegistration.g.cs
+C:\Users\shelb\source\repos\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageRegistration.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\Bestour.exe
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\Bestour.deps.json
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\Bestour.runtimeconfig.json
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\Bestour.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\Bestour.pdb
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Converters.Wpf.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Core.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Css.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Dom.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Model.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Rendering.Gdi.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Rendering.Wpf.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-windows\SharpVectors.Runtime.Wpf.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.csproj.AssemblyReference.cache
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageLogin.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageOranisationCredits.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageRegistration.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour_MarkupCompile.cache
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour_MarkupCompile.lref
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\App.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageLogin.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageOranisationCredits.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageRegistration.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.g.resources
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.AssemblyInfoInputs.cache
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.AssemblyInfo.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.csproj.CoreCompileInputs.cache
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.csproj.CopyComplete
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\refint\Bestour.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.pdb
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.genruntimeconfig.cache
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\ref\Bestour.dll

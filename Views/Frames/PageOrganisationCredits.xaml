@@ -1,0 +1,49 @@
+﻿<Page x:Class="Bestour.Views.Frames.PageOrganisationCredits"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Bestour.Views.Frames"
+      mc:Ignorable="d" 
+      d:DesignHeight="772" d:DesignWidth="1049"
+      Title="OranisationCredits">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.95*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Margin="5">
+            <TextBox Style="{StaticResource FrameOrganisationCreditsTextBoxNaming}"/>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Width="184" Height="184" Margin="5" Source="/Src/OrganisationLogo.png" Stretch="Fill"/>
+                    <TextBox Style="{StaticResource FrameOrganisationCreditsTextBoxLogoInformation}"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Left" Margin="5">
+                    <Button Name="BtnUploadMedia" Click="BtnUploadMedia_Click" Style="{StaticResource FrameRegistrationBtnUploadMedia}"/>
+                    <Border Width="170" Style="{StaticResource FrameRegistrationBtnUploadMediaBorder}"/>
+                </StackPanel>
+            </StackPanel>
+            
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="5">
+            <TextBox Style="{StaticResource FrameOrganisationCreditsTextBoxDescription}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" VerticalAlignment="Bottom" Margin="5">
+            <StackPanel Orientation="Horizontal" >
+                <Button Name="BtnBackspace" Click="BtnBackspace_Click" Style="{StaticResource BtnBackspace}"/>
+                <Button Name="BtnContinue" Click="BtnContinue_Click" Style="{StaticResource BtnContinue}"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>

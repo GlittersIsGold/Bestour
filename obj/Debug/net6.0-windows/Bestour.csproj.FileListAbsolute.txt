@@ -49,7 +49,6 @@ C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\bin\Debug\net6.0-wi
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.csproj.AssemblyReference.cache
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageLogin.g.cs
-C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageOranisationCredits.g.cs
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageRegistration.g.cs
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour_MarkupCompile.cache
@@ -57,7 +56,6 @@ C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-wi
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\App.baml
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageLogin.baml
-C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageOranisationCredits.baml
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageRegistration.baml
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.g.resources
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.GeneratedMSBuildEditorConfig.editorconfig
@@ -70,3 +68,11 @@ C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-wi
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.pdb
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Bestour.genruntimeconfig.cache
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\ref\Bestour.dll
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Boxes\WindowApplicationAccepted.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageEntrySystem.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageTrustedPerson.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Boxes\WindowApplicationAccepted.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageEntrySystem.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageTrustedPerson.baml
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageOrganisationCredits.g.cs
+C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\obj\Debug\net6.0-windows\Views\Frames\PageOrganisationCredits.baml

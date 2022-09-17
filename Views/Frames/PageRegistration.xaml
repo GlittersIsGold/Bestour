@@ -25,10 +25,14 @@
             <StackPanel Orientation="Horizontal">
                 <StackPanel Orientation="Vertical">
                     <TextBox Style="{StaticResource FrameRegistrationTextBox}"/>
-                    <Button Name="BtnUploadOrganisationCredits" 
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="5">
+                        <Button Name="BtnUploadOrganisationCredits" 
                             Click="BtnUploadOrganisationCredits_Click" 
-                            Style="{StaticResource FrameRegistrationBtnUploadMedia}"/>
+                            Style="{StaticResource FrameRegistrationBtnUploadMedia}"
+                            Width="180" 
+                            />
                     <Border Width="170" Style="{StaticResource FrameRegistrationBtnUploadMediaBorder}"/>
+                    </StackPanel>
                 </StackPanel>
             </StackPanel>
         </StackPanel>
@@ -46,10 +50,14 @@
                            Style="{StaticResource FrameRegistrationTextBlock}"/>
                 <TextBlock Text="на учёт"  
                            Style="{StaticResource FrameRegistrationTextBlock}"/>
-                <Button Name="BtnUploadRegistrationCertificate" HorizontalAlignment="Center"
-                        Click="BtnUploadRegistrationCertificate_Click" 
-                        Style="{StaticResource FrameRegistrationBtnUploadMedia}"/>
-                <Border Width="170" HorizontalAlignment="Center" Style="{StaticResource FrameRegistrationBtnUploadMediaBorder}"/>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                        <Button Name="BtnUploadRegistrationCertificate" HorizontalAlignment="Center"
+                                Click="BtnUploadRegistrationCertificate_Click" 
+                                Style="{StaticResource FrameRegistrationBtnUploadMedia}"
+                                Width="180" 
+                                />
+                        <Border Width="170" HorizontalAlignment="Center" Style="{StaticResource FrameRegistrationBtnUploadMediaBorder}"/>
+                    </StackPanel>
                 </StackPanel>
         </StackPanel>
 

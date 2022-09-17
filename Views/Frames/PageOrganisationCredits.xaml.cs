@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bestour.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,26 @@ namespace Bestour.Views.Frames
     /// <summary>
     /// Логика взаимодействия для PageOranisationCredits.xaml
     /// </summary>
-    public partial class PageOranisationCredits : Page
+    public partial class PageOrganisationCredits : Page
     {
-        public PageOranisationCredits()
+        public PageOrganisationCredits()
         {
             InitializeComponent();
+        }
+
+        private void BtnContinue_Click(object sender, RoutedEventArgs e)
+        {
+            ClassFrameNavigation.FrameView.Navigate(new PageEntrySystem());
+        }
+
+        private void BtnBackspace_Click(object sender, RoutedEventArgs e)
+        {
+            ClassFrameNavigation.FrameView.Navigate(new PageRegistration());
+        }
+
+        private void BtnUploadMedia_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

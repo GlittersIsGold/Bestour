@@ -7,10 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\Boxes\WindowApplicationAccepted.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\PageEntrySystem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Frames\PageLogin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Frames\PageRegistration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Frames\PageTrustedPerson.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -18,10 +27,19 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Boxes\WindowApplicationAccepted.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\PageEntrySystem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Frames\PageLogin.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Frames\PageRegistration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Frames\PageTrustedPerson.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\shelb\OneDrive\Рабочий стол\PROJ\Bestour\App.xaml
-4-659787339
+7370522310
 
-7-593234515
+10-815870368
 202-1761687668
-MainWindow.xaml;Views\Frames\PageLogin.xaml;Views\Frames\PageOranisationCredits.xaml;Views\Frames\PageRegistration.xaml;
+MainWindow.xaml;Views\Boxes\WindowApplicationAccepted.xaml;Views\Frames\PageEntrySystem.xaml;Views\Frames\PageLogin.xaml;Views\Frames\PageOrganisationCredits.xaml;Views\Frames\PageRegistration.xaml;Views\Frames\PageTrustedPerson.xaml;
 
 False
 

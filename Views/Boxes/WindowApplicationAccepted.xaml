@@ -1,0 +1,47 @@
+﻿<Window x:Class="Bestour.Views.Boxes.WindowApplicationAccepted"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bestour.Views.Boxes"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="#E39163"
+        AllowsTransparency="True"
+        Title="WindowApplicationAccepted" Height="577" Width="789">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center">
+            <Image Source="/Src/AcceptBox.png" Width="199" Height="199" Margin="5"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Ваша заявка успешно принята!" Style="{StaticResource AcceptApplicationTextBlockHeader}"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Данные находятся в обработке" Style="{StaticResource AcceptApplicationTextBlockBody}"/>
+            <TextBlock Text="О статусе проверки вы можете узнать в" Style="{StaticResource AcceptApplicationTextBlockBody}"/>
+            <TextBlock Text="личном кабинете" Style="{StaticResource AcceptApplicationTextBlockBody}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" VerticalAlignment="Bottom">
+            <Button Name="BtnAccept" Click="BtnAccept_Click" Content="Ок" Style="{StaticResource BtnBackspace}" VerticalAlignment="Bottom" Margin="5"/>
+        </StackPanel>
+        
+        
+        
+    </Grid>
+</Window>

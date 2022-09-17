@@ -187,7 +187,7 @@
 
         <!--Поле ввода--> 
         <Style TargetType="TextBox" x:Key="FrameRegistrationTextBox">
-            <Setter Property="Width" Value="410"/>
+            <Setter Property="Width" Value="412"/>
             <Setter Property="Height" Value="69"/>
             <Setter Property="Background" Value="#ECECEC"/>
             <Setter Property="FontFamily" Value="helvetica"/>
@@ -270,8 +270,9 @@
             <Setter Property="FontWeight" Value="UltraLight"/>
             <Setter Property="FontSize" Value="25"/>
             <Setter Property="Foreground" Value="#E39163"/>
-            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderBrush" Value="#E39163"/>
 
             <Style.Resources>
                 <Style TargetType="Border">
@@ -280,5 +281,106 @@
             </Style.Resources>
         </Style>
         
+        
+        
+        <!--Данные организации-->
+            <!--ТБ наименования-->
+        <Style TargetType="TextBox" x:Key="FrameOrganisationCreditsTextBoxNaming">
+            <Setter Property="Width" Value="572"/>
+            <Setter Property="Height" Value="69"/>
+            <Setter Property="Background" Value="#ECECEC"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="#8B8B8B"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Width" Value="572"/>
+                    <Setter Property="Height" Value="69"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="Content" Value="Логин"/>
+                </Style>
+            </Style.Resources>
+        </Style>            
+        
+            <!--ТБ рядом с логотипом-->
+        <Style TargetType="TextBox" x:Key="FrameOrganisationCreditsTextBoxLogoInformation">
+            <Setter Property="Width" Value="353"/>
+            <Setter Property="Height" Value="184"/>
+            <Setter Property="Background" Value="#ECECEC"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="#8B8B8B"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Width" Value="353"/>
+                    <Setter Property="Height" Value="184"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="Content" Value="Логин"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+
+        <!--ТБ описания-->
+        <Style TargetType="TextBox" x:Key="FrameOrganisationCreditsTextBoxDescription">
+            <Setter Property="Width" Value="572"/>
+            <Setter Property="Height" Value="284"/>
+            <Setter Property="Background" Value="#ECECEC"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="FontWeight" Value="UltraLight"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="#8B8B8B"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Width" Value="572"/>
+                    <Setter Property="Height" Value="284"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="Content" Value="Логин"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+        
+        
+        <!--Окно подтверждения записи-->
+        <Style TargetType="TextBlock" x:Key="AcceptApplicationTextBlockHeader">
+            <Setter Property="IsHitTestVisible" Value="False"/>
+            <Setter Property="Text" Value="Блок текста"/>
+            <Setter Property="Foreground" Value="#F9F9F9"/>
+            <Setter Property="FontWeight" Value="UltraBold"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Width" Value="400"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+        
+        <Style TargetType="TextBlock" x:Key="AcceptApplicationTextBlockBody">
+            <Setter Property="IsHitTestVisible" Value="False"/>
+            <Setter Property="Text" Value="Блок текста"/>
+            <Setter Property="Foreground" Value="#F9F9F9"/>
+            <Setter Property="FontFamily" Value="helvetica"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="ExtraLight"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+
     </Application.Resources>
 </Application>

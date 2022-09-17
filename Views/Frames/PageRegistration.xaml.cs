@@ -39,7 +39,7 @@ namespace Bestour.Views.Frames
 
         private void BtnContinue_Click(object sender, RoutedEventArgs e)
         {
-            
+            ClassFrameNavigation.FrameView.Navigate( new PageOrganisationCredits() );
         }
     }
 }
